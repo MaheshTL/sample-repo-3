@@ -10,7 +10,6 @@ jobs:
     - name: daily-issue-closure
       uses: bdougie/close-issues-based-on-label@master
       env:
-        LABEL: 
-          ONBOARDING
-          "custom request"
+        LABEL:
+          'custom request'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
