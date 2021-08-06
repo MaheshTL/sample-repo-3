@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: 1 * * * *
+  - cron: 0 * * * *
 name: Daily Issue Closure
 jobs:
   cycle-weekly-close:
