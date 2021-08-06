@@ -13,15 +13,11 @@ on:
 
 jobs:
   label:
-
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
 
     steps:
     - uses: actions/labeler@v2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        configuration-path: .github/label.yml  //change it before commit
+        configuration-path: .github/label.yml  
 
