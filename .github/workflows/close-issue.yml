@@ -1,7 +1,7 @@
 on:
   schedule:
   - cron: 1/1 * * * *
-name: Daily Issue Closure
+name: Stale Issue Closure
 jobs:
   cycle-daily-close:
     runs-on: ubuntu-latest
@@ -10,5 +10,5 @@ jobs:
     - name: daily-issue-closure
       uses: bdougie/close-issues-based-on-label@master
       env:
-        LABEL: wontfix
+        LABEL: ONBOARDING
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
