@@ -1,4 +1,2 @@
 this is first file
-
-
 this is second test
