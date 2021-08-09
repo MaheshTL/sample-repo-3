@@ -1,2 +1,8 @@
 custom request:
   - main/*
+  
+bug:
+  - main/*
+  
+check:
+  - main/*
